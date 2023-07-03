@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* this will not keep the flex items within the flex */
+    /* flex-wrap: nowrap; */
+    /* this will keep the flex items within the flex */
+    flex-wrap: wrap;
+    /* this will center the flex items center */
+    justify-content: center;
+    background-color: green;
+}
+
+.flex>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+}
